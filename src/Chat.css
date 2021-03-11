@@ -22,6 +22,7 @@
 
 .chat__headerInfo > p {
     color: gray;
+    font-size: 13px;
 }
 
 .chat_headerRight {

@@ -64,3 +64,8 @@
   flex: 1; 
   overflow-y: auto;
 }
+
+.sidebar__chats > a {
+    text-decoration: none !important;
+    color: black;
+}

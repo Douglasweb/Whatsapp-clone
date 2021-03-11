@@ -1,0 +1,6 @@
+Depoly no firebase
+-- firebase login
+-- firebase init
+-- npm run build
+-- firebase deploy
+-- firebase logout
