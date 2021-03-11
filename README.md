@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="nodejs" title="nodejs" src=".github/nodejs.png" />
+  #Whatsapp Clone
 </h1>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <br>
 
-## ✨ Imagens
+## 💻 Imagens
 
 <p align="center">
   <img alt="Login" src=".github/login.png" width="75%">
