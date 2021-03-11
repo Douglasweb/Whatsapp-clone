@@ -1,10 +1,14 @@
 import { Avatar } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import db from './firebase';
 import './SidebarChat.css';
 
-function SidebarChat({ addNewChat }) {
+function SidebarChat({ id, name, addNewChat }) {
 
-const [seed, setSeed] = useState('');
+    const [seed, setSeed] = useState('');
+
+
 
     useEffect(() => {
       
@@ -18,19 +22,24 @@ const [seed, setSeed] = useState('');
 
         if (RoomName) {
 
-            //faça algo
+            db.collection('rooms').add({
+                name: RoomName
+            });
         }
 
     };
 
     return !addNewChat ? ( 
-        <div className='sidebarChat' >
-            <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
-            <div className="sidebarChat__info">
-                <h2> Room name </h2>
-                <p>Last message ...</p>
-            </div>
-        </div>
+        <Link to={`/rooms/${id}`}>
+           <div className='sidebarChat' >
+                <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
+                <div className="sidebarChat__info">
+                    <h2> {name} </h2>
+                    <p>Last message ...</p>
+                </div>
+            </div>     
+        </Link>
+        
     )
     :
     (
