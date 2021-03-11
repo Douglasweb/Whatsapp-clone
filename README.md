@@ -6,7 +6,8 @@
  <a href="#-imagens">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-acesso-web">Acesso web</a>
 </p>
 
 <p align="center"> 
@@ -45,4 +46,8 @@ Projeto de um clone do whatsapp feito para estudo. Utilizando a autentificação
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-Feito por Douglas no NLW04 da Rocketseat ♥ 👋🏻
+## 🚀 Acesso web
+
+Pode ser acessado também em [`Whatsapp Clone`](https://whatapp-clone-4f09b.web.app/)
+
+Feito por Douglas.
